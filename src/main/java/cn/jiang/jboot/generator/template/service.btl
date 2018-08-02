@@ -1,0 +1,16 @@
+package ${entity.servicePackage};
+
+import cn.jiang.jboot.base.XbootBaseService;
+import cn.jiang.jboot.entity.${entity.className};
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+
+import java.util.List;
+
+/**
+ * ${entity.description}接口
+ * @author ${entity.author}
+ */
+public interface ${entity.className}Service extends JbootBaseService<${entity.className},${entity.primaryKeyType}> {
+
+}

@@ -12,7 +12,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/jboot?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     # Jasypt加密 可到common-utils中找到JasyptUtil加解密工具类生成加密结果 格式为ENC(加密结果)
-    password: ENC(F4B0s6u9xcDw3V+P0qC4CA==)
+    password: ENC(rMxDwPmqxZsnOp3yZXu2sA==)
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
     logSlowSql: true

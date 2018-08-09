@@ -1,6 +1,5 @@
 package cn.jiang.jboot.dao;
 
-import cn.jiang.jboot.base.XbootBaseDao;
 import cn.jiang.jboot.entity.Role;
 import cn.jiang.jboot.entity.UserRole;
 import cn.jiang.jboot.base.JbootBaseDao;

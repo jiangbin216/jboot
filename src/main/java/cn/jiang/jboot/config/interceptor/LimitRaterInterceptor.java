@@ -5,7 +5,7 @@ import cn.jiang.jboot.common.constant.CommonConstant;
 import cn.jiang.jboot.common.limit.RedisRaterLimiter;
 import cn.jiang.jboot.common.utils.IpInfoUtil;
 import cn.jiang.jboot.common.utils.ResponseUtil;
-import cn.jiang.jboot.exception.XbootException;
+import cn.jiang.jboot.exception.JbootException;
 import cn.hutool.core.util.StrUtil;
 import io.swagger.models.auth.In;
 import lombok.extern.slf4j.Slf4j;

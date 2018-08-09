@@ -1,6 +1,6 @@
 package cn.jiang.jboot.controller.manage;
 
-import cn.jiang.jboot.base.XbootBaseController;
+import cn.jiang.jboot.base.JbootBaseController;
 import cn.jiang.jboot.common.utils.PageUtil;
 import cn.jiang.jboot.common.utils.ResultUtil;
 import cn.jiang.jboot.common.vo.PageVo;
@@ -31,7 +31,7 @@ import java.util.Set;
 @RestController
 @Api(description = "角色管理接口")
 @RequestMapping("/jboot/role")
-public class RoleController extends XbootBaseController<Role, String> {
+public class RoleController extends JbootBaseController<Role, String> {
 
     @Autowired
     private RoleService roleService;

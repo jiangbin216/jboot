@@ -1,6 +1,6 @@
 package cn.jiang.jboot.dao;
 
-import cn.jiang.jboot.base.XbootBaseDao;
+import cn.jiang.jboot.base.JbootBaseDao;
 import cn.jiang.jboot.entity.RolePermission;
 
 import java.util.List;

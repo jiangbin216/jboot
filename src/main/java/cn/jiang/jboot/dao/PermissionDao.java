@@ -1,6 +1,6 @@
 package cn.jiang.jboot.dao;
 
-import cn.jiang.jboot.base.XbootBaseDao;
+import cn.jiang.jboot.base.JbootBaseDao;
 import cn.jiang.jboot.entity.Permission;
 
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
  * 权限数据处理层
  * @author jiang
  */
-public interface PermissionDao extends XbootBaseDao<Permission,String> {
+public interface PermissionDao extends JbootBaseDao<Permission,String> {
 
     /**
      * 通过层级查找

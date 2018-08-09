@@ -21,10 +21,10 @@ public class RedisDistributedLockTemplate implements DistributedLockTemplate {
     @Override
     public Object execute(String lockId, Integer timeout, Callback callback) {
 
-        cn.exrick.xboot.common.lock.RedisReentrantLock distributedReentrantLock = null;
+        cn.jiang.jboot.common.lock.RedisReentrantLock distributedReentrantLock = null;
         boolean getLock=false;
         try {
-            distributedReentrantLock = new cn.exrick.xboot.common.lock.RedisReentrantLock(jedisPool,lockId);
+            distributedReentrantLock = new cn.jiang.jboot.common.lock.RedisReentrantLock(jedisPool,lockId);
             if(distributedReentrantLock.tryLock(new Long(timeout), TimeUnit.MILLISECONDS)){
                 getLock=true;
                 return callback.onGetLock();

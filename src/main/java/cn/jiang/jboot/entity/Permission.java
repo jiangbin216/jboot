@@ -1,7 +1,7 @@
 package cn.jiang.jboot.entity;
 
 import cn.jiang.jboot.base.JbootBaseEntity;
-import cn.jiang.jboot.base.XbootBaseEntity;
+import cn.jiang.jboot.base.JbootBaseEntity;
 import cn.jiang.jboot.common.constant.CommonConstant;
 import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableName;
